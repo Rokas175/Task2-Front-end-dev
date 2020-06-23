@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Task 2</title>
+		<link rel="stylesheet" href="assets/css/style.css">
+	</head>
+	<body>
+				<div class="main">
+					<div class="">
+					
+						<div id="mission" class="flex-container">
+							<div class="content">
+								<h1>Homework assignment - Task #2: Front end dev / Angular #2</h1>
+								<h2>Goal</h2>
+								
+								<p>	Determine if you can reach the last element on a positive/negative numbers
+								array, according to these rules:</p>
+								<p>1. You start at first element.</p>
+								<p>2. Current element value indicates how many steps you can take at most.</p>	
+								<p>(Example: if the value is 3 you can take 0, 1, 2 or 3 steps).</p>	
+
+							</div>
+							<div class="flex-container">
+								
+									<form>
+										<label>Enter a number between 1-10 to pass into array:</label>
+										<br>
+										
+										<input type="number" required min="1" max="10">
+										<br>
+										<input type="submit" id="submission" value="Submit">
+									</form>
+								
+							</div>
+
+							<div id="interface" class="flex-container">
+								<div>
+									<button id="tryBtn">
+										Can we reach array end?
+									</button>
+									<p id="answer"></p>
+								</div>
+								<div>
+									<button id="pathBtn">
+										What is the best path?
+									</button>
+									<p id="bestPath"></p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+		<script src="assets/scripts/index.js"></script>
+	</body>
+</html>
