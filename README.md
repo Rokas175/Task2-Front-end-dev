@@ -1,8 +1,8 @@
 # Task2-Front-end-dev
 
+
 Homework assignment - Task #2: Front end dev / Angular #2 
 Assignment
-
 Goal
 Determine if you can reach the last element on a positive/negative numbers
 array, according to these rules:
@@ -22,4 +22,4 @@ When the array is modified, user receives feedback if game is winnable and
 most efficient path.
 
 
-Part 1 is done,but part 2 is not finished
+#Part 1 is done,but part 2 is not finished
